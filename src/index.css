@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-headline-sm: "Playfair Display", serif;
+  --font-headline-md: "Playfair Display", serif;
+  --font-headline-xl: "Playfair Display", serif;
+  --font-display-lg: "Playfair Display", serif;
+  --font-body-sm: "Plus Jakarta Sans", sans-serif;
+  --font-body-md: "Plus Jakarta Sans", sans-serif;
+  --font-body-lg: "Plus Jakarta Sans", sans-serif;
+  --font-label-sm: "Plus Jakarta Sans", sans-serif;
+  --font-label-md: "Plus Jakarta Sans", sans-serif;
+  --font-label-lg: "Plus Jakarta Sans", sans-serif;
+
+  --color-background: #131315;
+  --color-surface: #131315;
+  --color-surface-dim: #131315;
+  --color-surface-bright: #39393b;
+  --color-surface-container-lowest: #0e0e10;
+  --color-surface-container-low: #1b1b1d;
+  --color-surface-container: #201f21;
+  --color-surface-container-high: #2a2a2c;
+  --color-surface-container-highest: #353437;
+  --color-surface-variant: #353437;
+  --color-primary: #ffffff;
+  --color-on-primary: #30312d;
+  --color-secondary: #e0c298;
+  --color-on-secondary: #402d0f;
+  --color-secondary-container: #584323;
+  --color-on-secondary-container: #ceb188;
+  --color-outline: #91918a;
+  --color-outline-variant: #464741;
+  --color-on-surface: #e5e1e4;
+  --color-on-surface-variant: #c7c7bf;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+    color: var(--color-on-surface);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    overscroll-behavior: none;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

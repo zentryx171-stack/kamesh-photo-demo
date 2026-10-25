@@ -1,0 +1,6 @@
+{
+  "name": "Kamesh Photography Atelier",
+  "description": "Luxury wedding and fine art photography commissions across Paris, Lake Como, New York, and worldwide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
